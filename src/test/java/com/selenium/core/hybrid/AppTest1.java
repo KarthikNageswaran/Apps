@@ -6,6 +6,7 @@ public class AppTest1 {
 		// TODO Auto-generated method stub
 		
 		System.out.println("Added new code");
+		System.out.println("Added new code 1");
 	}
 
 }
