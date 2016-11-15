@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.selenium.core.hybrid.testcases.Areaofcompliance">
+        <methods>
+          <include name="dologin" invocation-numbers="0 1 2"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.selenium.core.hybrid.testcases.Areaofcompliance -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

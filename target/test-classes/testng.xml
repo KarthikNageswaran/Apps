@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="my suite">
+
+<suite-files>
+	<suite-file path="./SuiteA.xml" />
+	
+</suite-files>
+
+</suite>

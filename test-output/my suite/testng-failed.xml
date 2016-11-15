@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [my suite]">
+  <test name="gmail(failed)">
+    <classes>
+      <class name="com.selenium.core.hybrid.testcases.gmail">
+        <methods>
+          <include name="dologin" invocation-numbers="0 1 2"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.selenium.core.hybrid.testcases.gmail -->
+    </classes>
+  </test> <!-- gmail(failed) -->
+</suite> <!-- Failed suite [my suite] -->

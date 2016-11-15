@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteA" parallel="tests">
+
+<test name="Areaofcompliance">
+    <classes>
+        <class name="com.selenium.core.hybrid.testcases.Areaofcompliance"></class>  
+    </classes>
+</test>
+
+<test name="FinancialAccount">
+    <classes>
+        <class name="com.selenium.core.hybrid.testcases.FinancialAccount"></class>  
+    </classes>
+</test>
+
+
+</suite>

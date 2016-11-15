@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" verbose="0" name="Failed suite [SuiteA]" parallel="tests">
+  <test name="Areaofcompliance(failed)" parallel="tests">
+    <classes>
+      <class name="com.selenium.core.hybrid.testcases.Areaofcompliance">
+        <methods>
+          <include name="dologin" invocation-numbers="0 2"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.selenium.core.hybrid.testcases.Areaofcompliance -->
+    </classes>
+  </test> <!-- Areaofcompliance(failed) -->
+</suite> <!-- Failed suite [SuiteA] -->
